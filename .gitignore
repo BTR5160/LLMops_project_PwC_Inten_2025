@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Model or large data directories
+gemma-3-1b-it/
+
+# Output and log files
+data/output/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
