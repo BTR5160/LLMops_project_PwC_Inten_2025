@@ -16,3 +16,5 @@ gemma-3-1b-it/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+data/output/
