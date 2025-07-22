@@ -1,0 +1,8 @@
+stages:
+  train_model:
+    cmd: python run.py
+    deps:
+    - data/input/
+    - run.py
+    outs:
+    - data/output/
