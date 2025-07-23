@@ -1,0 +1,10 @@
+{
+    "timestamp": "2025-07-23_13-02-17",
+    "source": "data/input",
+    "output_format": "jsonl",
+    "files": [
+        "fine_tune.json",
+        "discard.log"
+    ],
+    "generated_by": "run.py"
+}

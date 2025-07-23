@@ -19,3 +19,8 @@ Thumbs.db
 
 data/output/
 data/input/
+
+data/output/runs/
+!data/output/runs/*.dvc
+
+

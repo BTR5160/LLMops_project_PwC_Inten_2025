@@ -10,11 +10,11 @@ stages:
       nfiles: 5
     - path: run.py
       hash: md5
-      md5: 968e05fd91a451444d87d8bc6c2f887a
-      size: 1546
+      md5: 81c608060f3fd9654cfad20fe8ea2fa6
+      size: 2415
     outs:
     - path: data/output/
       hash: md5
-      md5: f084332dc1ee0cbbd4a8295dbd85a01f.dir
-      size: 1397
-      nfiles: 2
+      md5: bb1c963369257e78be884c166cc0493d.dir
+      size: 2887
+      nfiles: 4
