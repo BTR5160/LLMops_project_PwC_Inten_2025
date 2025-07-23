@@ -1,0 +1,20 @@
+schema: '2.0'
+stages:
+  process_data:
+    cmd: python run.py
+    deps:
+    - path: data/input/
+      hash: md5
+      md5: b53d0d6f4dc7e22d57b0e0f0a1bb8417.dir
+      size: 181279
+      nfiles: 5
+    - path: run.py
+      hash: md5
+      md5: 968e05fd91a451444d87d8bc6c2f887a
+      size: 1546
+    outs:
+    - path: data/output/
+      hash: md5
+      md5: f084332dc1ee0cbbd4a8295dbd85a01f.dir
+      size: 1397
+      nfiles: 2

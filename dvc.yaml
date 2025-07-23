@@ -1,5 +1,5 @@
 stages:
-  train_model:
+  process_data:
     cmd: python run.py
     deps:
     - data/input/
