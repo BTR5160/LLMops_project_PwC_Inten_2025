@@ -2,7 +2,17 @@ stages:
   process_data:
     cmd: python run.py
     deps:
-    - data/input/
-    - run.py
+      - data/input/
+      - run.py
     outs:
-    - data/output/
+      - data/output/
+
+  fine_tune_model:
+    cmd: python fine_tune/run_finetune.py
+    deps:
+      - data/output/fine_tune.jsonl
+      - fine_tune/run_finetune.py
+    outs:
+      - models/gemma-finetuned
+
+

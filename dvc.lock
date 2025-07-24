@@ -18,3 +18,20 @@ stages:
       md5: bb1c963369257e78be884c166cc0493d.dir
       size: 2887
       nfiles: 4
+  fine_tune_model:
+    cmd: python fine_tune/run_finetune.py
+    deps:
+    - path: data/output/fine_tune.jsonl
+      hash: md5
+      md5: e67f7348191cc87a23b9d566ddec519b
+      size: 298
+    - path: fine_tune/run_finetune.py
+      hash: md5
+      md5: 56e338d4b99495a4134f4b1135dbf6ea
+      size: 2961
+    outs:
+    - path: models/gemma-finetuned
+      hash: md5
+      md5: 7d59a46d23bb2a8e31958e5a48aeba64.dir
+      size: 81261807
+      nfiles: 19

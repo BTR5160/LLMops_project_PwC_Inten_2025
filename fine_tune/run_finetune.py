@@ -8,7 +8,7 @@ import torch
 
 # ✅ Configurations
 MODEL_PATH = "./gemma-3-1b-it"  # dossier du modèle local
-DATA_PATH = "data/output/fine_tune.json"
+DATA_PATH = "data/output/fine_tune.jsonl"
 OUTPUT_DIR = "models/gemma-finetuned"
 USE_WANDB = os.environ.get("USE_WANDB", "0") == "1"
 
